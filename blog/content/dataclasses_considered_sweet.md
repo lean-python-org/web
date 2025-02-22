@@ -104,7 +104,7 @@ from dataclasses import dataclass, field
 
 class Business:
     ...
-    branches: list = field(default_factory=[])
+    branches: list = field(default_factory=list)
 ```
 
 4) default_factory for a function
